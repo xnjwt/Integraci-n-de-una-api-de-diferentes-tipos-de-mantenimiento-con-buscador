@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
+body {
+	font-family: "Spline Sans", sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+	background-color: #eaeef6;
+}
+#contenedor{
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+#buscar{
+  background-image: url('search.svg'); /* Establece la imagen de fondo como el ícono de búsqueda */
+  background-size: 1em auto; /* La imagen de fondo se ajustará al tamaño máximo del input */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-position: calc(100% - 0.7em) center; /* Posición del ícono: al inicio y centrado verticalmente */
+  display: flex;
+  width:100%;
+  height: 30px;
+  border-color: whitesmoke;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, .25);
+}
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 2.5rem;
+	width: 90%;
+	max-width: 1000px;
+	margin: 5vh auto;
+}
+
+.card {
+	border-radius: 16px;
+	box-shadow: 0 30px 30px -25px rgba(65, 51, 183, .25);
+	max-width: 300px;
+}
+
+.information {
+	background-color: #fff;
+	padding: 1.5rem;
+}
+/*
+.information .tag {
+	display: inline-block;
+	background-color: #f1eeff;
+	color: #6558d3;
+	font-weight: 600;
+	font-size: 0.875rem;
+	padding: 0.5em 0.75em;
+	line-height: 1;
+	border-radius: 6px;
+}
+
+.information .tag + * {
+	margin-top: 1rem;
+}
+*/
+.information .title {
+	font-size: 1.25rem;
+	color: #141b22;
+	line-height: 1.25;
+}
+
+.information .title + * {
+	margin-top: 1rem;
+}
+
+.information .info {
+	color: #a0a0a0;
+	margin-top: 1.25rem;
+}
+/*
+.information .button {
+	font: inherit;
+	line-height: 1;
+	background-color: #fff;
+	border: 2px solid #6558d3;
+	color: #6558d3;
+	padding: 0.5em 1em;
+	border-radius: 6px;
+	font-weight: 500;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem;
+}
+
+.information .button:hover,
+.information .button:focus {
+	background-color: #6558d3;
+	color: #fff;
+}
+*/
+.information .details {
+	display: flex;
+	gap: 1rem;
+}
+
+.information .details div {
+	padding: .75em 1em;
+	background-color: #f1eeff;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column-reverse;
+	gap: .125em;
+	flex-basis: 50%;
+}
+
+.information .details dt {
+  font-size: .875rem;
+  color: #a69fd6;
+  
+  
+}
+
+.information .details dd {
+	color: #6558d3;
+	font-weight: 600;
+	font-size: 1rem;
+  margin-inline-start: 0;
+  white-space: nowrap;
+}
+
