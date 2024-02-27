@@ -28,6 +28,6 @@ Agradecemos también a la [página](https://feathericons.com/?query=Fin) de dón
 - ![Ubicacion](map.svg)
 
 El diseño de este proyecto fue gracias a los códigos css disponibles en linea de forma gratuita de la siguiente [página](https://codepen.io/havardob/pen/PoJapGX).
-El diseño extraido fue adaptado a las necesidades del proyecto dejando solo lo fundamental.
+Este diseño extraido fue adaptado a las necesidades del proyecto dejando solo lo fundamental.
 
 ¡Esperamos que disfrutes explorando la lista de mantenimientos de vías y que esta herramienta sea útil en tu día a día!
